@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari, Edge, Opera */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    @apply appearance-none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+:root {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  color: #FFF9FF;
+  background-color: black;
+  background-image: url('/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+}
+
+.border-gradient {
+  border-image: linear-gradient(to right, #FFFFFF 0%, #302928 100%) 1;
+  border-radius: 5px; 
+  border-width: 1px;
+  border-style: solid;
+}
