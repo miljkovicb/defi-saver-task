@@ -154,7 +154,7 @@ const CdpDetails = ({ web3, account }) => {
                   Max Debt Creation
                 </span>
                 <span className="text-material-onBackground font-semibold text-4xl">
-                  ${maxDebtCreation} DAI
+                  {maxDebtCreation} DAI
                 </span>
               </div>
             </div>
