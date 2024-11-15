@@ -26,11 +26,6 @@ Follow these instructions to set up the application on your local machine for de
     npm install
     ```
 
-    If you have only `lodash.debounce` installed and need additional lodash functions, run:
-
-    ```bash
-    npm install lodash
-    ```
 
 2. **Environment Setup**:
 
